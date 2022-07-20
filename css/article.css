@@ -1,0 +1,66 @@
+.main {
+    background-color: #fff;
+    width: 1300px;
+    margin: auto;
+    /* height: 100%; */
+    /* box-shadow: 0px 0px 8px 1px rgb(202, 202, 202, 0.5); */
+}
+
+.main .main-part {
+    padding: 35px 50px;
+}
+
+.main .list-title {
+    border-bottom: 1px solid #BBB;
+    height: 45px;
+}
+
+.main .list-title .zh {
+    float: left;
+    width: 105px;
+}
+
+.main .list-title .zh p {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Microsoft JhengHei";
+    font-weight: bold;
+}
+
+.main .list-title .zh .line {
+    background-color: #ca1818;
+    height: 5.5px;
+    margin-top: 10px;
+}
+
+.main .main-part .list-contentss {
+    height: 100%;
+    margin: 40px auto;
+}
+
+.main .main-part .list-contentss .article-title {
+    font-size: 30px;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.main .main-part .list-contentss .article-info {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.main .main-part .list-contentss .article-info li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main .main-part .list-contentss .article-text h2 {
+    text-align: center;
+    line-height: 70px;
+}
+
+.main .main-part .list-contentss .article-text p {
+    text-indent: 2em;
+    font-size: 18px;
+    line-height: 35px;
+}

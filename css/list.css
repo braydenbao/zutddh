@@ -1,0 +1,122 @@
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.main {
+    background-color: #fff;
+    width: 1300px;
+    margin: auto;
+    /* height: 100%; */
+    /* box-shadow: 0px 0px 8px 1px rgb(202, 202, 202, 0.5); */
+}
+
+.main .main-part {
+    padding: 35px 50px;
+}
+
+.main .content-text {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 2em;
+    /* font-family: 华文楷体; */
+}
+
+.main .content-text p {
+    text-indent: 2em;
+    margin: 5px 0;
+}
+
+.main .content-text .imagess {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.main .content-text .imagess img {
+    width: 650px;
+}
+
+.main .list-contentss li {
+    list-style-type: none;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #f3f3f8;
+}
+
+.main .list-contentss {
+    margin-top: 30px;
+}
+
+.main .list-contentss a {
+    text-decoration: none;
+    color: #000;
+    float: left;
+    width: 700px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.main .list-contentss a:hover {
+    color: #ca1818;
+}
+
+.main .list-contentss p {
+    width: 100px;
+    float: right;
+    color: #BBB;
+    font-size: 14px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.main .list-title {
+    border-bottom: 1px solid #BBB;
+    height: 45px;
+}
+
+.main .list-title .zh {
+    float: left;
+    width: 105px;
+}
+
+.main .list-title .zh p {
+    font-size: 25px;
+    text-align: center;
+    font-family: "Microsoft JhengHei";
+    font-weight: bold;
+}
+
+.main .list-title .zh .line {
+    background-color: #ca1818;
+    height: 5.5px;
+    margin-top: 10px;
+}
+
+.main .list-title .en {
+    float: left;
+    font-size: 18px;
+    line-height: 40px;
+    margin-left: 20px;
+    color: #bbbbbb;
+    font-family: Trebuchet MS, Helvetica, sans-serif;
+}
+
+.main .list-title .more {
+    float: right;
+    font-size: 15px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+
+.main .list-title .more a {
+    color: #999999;
+    text-decoration: none;
+}
+
+.main .list-title .more a:hover {
+    color: #ca1818;
+    /* font-weight: bold; */
+}
